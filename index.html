@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script async src="/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>milo town</title>
+  </head>
+  <body>
+    <div class="header">
+      <form class="form-busqueda" action="get">
+        <input
+          class="texto-busqueda"
+          type="text"
+          name="buscar"
+          placeholder="Lavarropas..."
+        />
+        <button class="boton-busqueda">Buscar</button>
+      </form>
+    </div>
+    <div class="contenedor-gral">
+      <div class="resultados">
+        <p class="cantidad-resultados">
+          Resultados: <span class="results-counter"></span>
+        </p>
+        <div class="contenedor-resultados"></div>
+      </div>
+    </div>
+    <template id="template">
+      <div class="producto">
+        <img class="imagen-producto" src="" alt="productop" />
+        <div class="contenido-producto">
+          <p class="titulo-producto"></p>
+          <p class="estado-producto"></p>
+          <p class="vendidos">
+            Vendidos:
+            <span class="cantidad-vendida"></span>
+          </p>
+        </div>
+        <p class="etiqueta-precio">$<span class="precio-producto"></span>.-</p>
+      </div>
+    </template>
+  </body>
+</html>

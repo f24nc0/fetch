@@ -1,0 +1,102 @@
+body {
+  font-family: Roboto;
+  box-sizing: border-box;
+  margin: 0 0;
+}
+
+.header {
+  height: 68px;
+  background-color: #fff159;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-busqueda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.texto-busqueda {
+  height: 42px;
+  width: 373px;
+  padding: 0 0;
+  font-size: 18px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 0 12px;
+}
+
+.boton-busqueda {
+  height: 44px;
+  width: 121px;
+  border: 0 0;
+  padding: 0 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contenedor-gral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.contenedor-resultados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.imagen-producto {
+  width: 128px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.producto {
+  border: solid;
+  border-width: 1px;
+  width: 510px;
+  height: 130px;
+  border-radius: 5px;
+  padding: 5px 5px;
+  display: flex;
+}
+
+.titulo-producto {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  margin-top: 11px;
+  max-height: 296px;
+}
+
+.estado-producto {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+
+.vendidos {
+  font-size: 14px;
+  margin: 0 0 0 0;
+}
+
+.cantidad-resultados {
+  text-align: left;
+}
+
+.etiqueta-precio {
+  margin: 13px 15px 0 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: right;
+  color: #5791a4;
+}
